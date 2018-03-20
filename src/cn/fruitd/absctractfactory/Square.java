@@ -1,0 +1,11 @@
+package cn.fruitd.absctractfactory;
+
+/**
+ * 正方形
+ */
+public class Square implements Shape {
+    @Override
+    public void draw() {
+        System.out.println("draw square!");
+    }
+}

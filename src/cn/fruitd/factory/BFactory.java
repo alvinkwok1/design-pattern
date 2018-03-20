@@ -1,8 +1,8 @@
 package cn.fruitd.factory;
 
-public class AFactory implements AbstractFactory  {
+public class BFactory implements AbstractFactory {
     @Override
     public AbstractProduct create() {
-        return new AProduct();
+        return new BProduct();
     }
 }
