@@ -22,6 +22,8 @@ public class Client {
          *
          *
          */
-
+        ArrayList<Integer> list1=new ArrayList<>();
+        ArrayList<Integer> list2=new ArrayList<>();
+        ArrayList<Integer>[] arrayLists=new ArrayList[]{list1,list2};
     }
 }
